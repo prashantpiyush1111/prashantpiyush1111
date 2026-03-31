@@ -78,9 +78,8 @@
 
 * LinkedIn: https://linkedin.com/in/prashantpiyush1111
 * GitHub : https://github.com/prashantpiyush1111
-* Email: [[prashantpiyush1111@gmail.com](mailto:prashantpiyush1111@gmail.com)](mailto:[prashantpiyush1111@gmail.com](mailto:prashantpiyush1111@gmail.com))
-
----
+* Email: prashantpiyush1111@gmail.com
+# 📊 GitHub Statistics
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=prashantpiyush1111&show_icons=true&theme=radical" width="45%" />
@@ -90,9 +89,7 @@
 
 ![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=prashantpiyush1111&theme=react-dark)
 
-![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=prashantpiyush1111&theme=github_dark)
-
-
+![Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prashantpiyush1111&theme=github_dark)
 
 ## 👀 Profile Views
 
