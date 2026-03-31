@@ -82,15 +82,18 @@
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Statistics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=prashantpiyush1111&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=prashantpiyush1111&layout=compact&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=prashantpiyush1111&show_icons=true&theme=radical&cache_seconds=60" width="45%" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prashantpiyush1111&layout=compact&theme=radical&cache_seconds=60" width="45%" />
+</p>
 
 ![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=prashantpiyush1111&theme=react-dark)
 
 ![Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prashantpiyush1111&theme=github_dark)
+
 
 ## 👀 Profile Views
 
