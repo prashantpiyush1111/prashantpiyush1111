@@ -17,38 +17,31 @@
 
 ## 🛠️ Technical Skills
 
-### Programming Languages
+### 💻 Programming Languages
 
-* Java, JavaScript, SQL
+Java, JavaScript, SQL
 
-### Frameworks & Libraries
+### ⚙️ Frameworks & Libraries
 
-* Spring Boot
-* React.js
-* Thymeleaf
+Spring Boot, React.js, Thymeleaf
 
-### Backend & API
+### 🔗 Backend & API
 
-* REST APIs
-* JWT Authentication
-* Role-Based Authorization
+REST APIs, JWT Authentication, Role-Based Authorization
 
-### Database
+### 🗄️ Database
 
-* MySQL
+MySQL
 
-### Tools
+### 🧰 Tools
 
-* Git & GitHub
-* Postman
-* Docker
-* VS Code
+Git & GitHub, Postman, Docker, VS Code
 
 ---
 
 ## 🚀 Projects
 
-### Task Management System
+### 📌 Task Management System
 
 **Tech Stack:** Spring Boot, MySQL, JWT
 
@@ -58,40 +51,51 @@
 
 ---
 
-### &#x20;
-
-### PG Management System
+### 📌 PG Management System
 
 **Tech Stack:** Java, Spring Boot, MySQL
 
-* Developed a complete PG (Paying Guest) management system
+* Developed a complete PG management system
 * Implemented tenant registration and room allocation
 * Managed payments and booking details
 * Designed efficient database structure for scalability
-* Improved data handling and backend performance
-
-  
+* Improved backend performance
 
 ---
 
 ## 🌐 Connect With Me
 
-* LinkedIn: https://linkedin.com/in/prashantpiyush1111
-* GitHub : https://github.com/prashantpiyush1111
-* Email: prashantpiyush1111@gmail.com
+* 🔗 LinkedIn: https://linkedin.com/in/prashantpiyush1111
+* 💻 GitHub: https://github.com/prashantpiyush1111
+* 📧 Email: [prashantpiyush1111@gmail.com](mailto:prashantpiyush1111@gmail.com)
+
+---
+
 # 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=prashantpiyush1111&show_icons=true&theme=radical" width="45%" />
-  
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=prashantpiyush1111&layout=compact&theme=radical" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=prashantpiyush1111&show_icons=true&theme=radical&count_private=true&include_all_commits=true&cache_seconds=0" width="45%" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prashantpiyush1111&layout=compact&theme=radical&cache_seconds=0" width="45%" />
 </p>
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=prashantpiyush1111&theme=react-dark)
+---
 
-![Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prashantpiyush1111&theme=github_dark)
+## 📈 Contribution Graph
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=prashantpiyush1111\&theme=react-dark\&area=true)
+
+---
+
+## 📊 Profile Summary
+
+![Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prashantpiyush1111\&theme=github_dark)
+
+---
 
 ## 👀 Profile Views
+
+![](https://komarev.com/ghpvc/?username=prashantpiyush1111\&color=blue)
 
 ---
 
