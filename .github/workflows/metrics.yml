@@ -1,0 +1,63 @@
+name: Metrics
+
+on:
+  schedule:
+    # Regenerate every day at 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# One run at a time: avoids two metrics jobs both pushing to main and one failing.
+concurrency:
+  group: prashantpiyush1111-profile-metrics
+  cancel-in-progress: true
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Stats card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: prashantpiyush1111
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Asia/Kolkata
+          plugin_languages: no
+          config_display: large
+
+      - name: Streak card
+        run: bash scripts/fetch_streak_card.sh
+
+      - name: Commit and push metrics
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add metrics.stats.svg cards/
+          if git diff --staged --quiet; then
+            echo "No changes to metrics SVGs"
+            exit 0
+          fi
+          git commit -m "chore: update metrics SVGs"
+          # Reconcile with concurrent pushes (e.g. other workflows or a quick follow-up commit).
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "Push attempt $i failed; retrying after 3s"
+            sleep 3
+          done
+          echo "All push attempts failed" >&2
+          exit 1
