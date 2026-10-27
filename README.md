@@ -15,6 +15,14 @@ increasingly pulling **AI / RAG** into those systems.
 
 ---
 
+### `/// TRACTIONS`
+
+> Building one project at a time.
+
+[![Code War](https://codewar.dev/api/svg?users=prashantpiyush1111,torvalds,garrytan,karpathy&range=1m&self=prashantpiyush1111)](https://codewar.dev/?user=prashantpiyush1111&targets=torvalds,garrytan,karpathy&range=1m)
+
+---
+
 ### `/// BUILDING`
 
 - **⟁** **[task-management-system](https://github.com/prashantpiyush1111/task-management-system)** — Enterprise-grade task manager on Spring Boot: JWT auth, role-based access, Kanban boards, sprint planning and workflows.
