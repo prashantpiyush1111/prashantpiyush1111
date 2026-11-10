@@ -81,7 +81,7 @@
   <text class="mono dim" x="0" y="208" font-size="10" letter-spacing="0.5">///  elsewhere</text>
   <g>
     <rect fill="#d0d4d9" x="792" y="200" width="60" height="16" rx="4" ry="4"/>
-    <text class="mono" fill="#ffffff" x="798" y="212" font-size="10" letter-spacing="0.5">v2026.10</text>
+    <text class="mono" fill="#ffffff" x="798" y="212" font-size="10" letter-spacing="0.5">v2026.11</text>
   </g>
   </g>
 </svg>
